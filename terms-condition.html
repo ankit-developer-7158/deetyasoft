@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Deetya Soft Pvt Ltd.</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Ubuntu:wght@500;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- <style>
+    figure{
+    padding:0;
+    margin:0;
+    pointer-events:none;
+}
+
+figure img{
+    width:100%;
+    height:100%;
+}
+****************************/
+header{
+    position:relative;
+    width:100%;
+    height:100vh;
+    color:var(--white);
+}
+
+.carousel{
+    width:100%;
+    height:100%;
+    position:relative;
+}
+
+.carousel:after{
+    content:"";
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background:linear-gradient(to bottom, rgba(1,1,1,0.8) 10%, rgba(1,1,1,0.4) 50%, rgba(1,1,1,0.2) 100%);
+    z-index:1;
+}
+
+.carousel img{
+    object-fit:cover;
+    object-position:bottom;
+    width: 100%;
+}
+
+.carousel_count{
+    position:absolute;
+    bottom:1rem;
+    left:0rem;
+    align-items:center;
+    z-index:1;
+    pointer-events:none;
+}
+
+ol li, ul li{
+    position:relative;
+}
+
+.carousel_count li{
+    margin:0 0.4rem;
+    position:relative;
+    opacity:0.7;
+}
+
+.carousel_count .active{
+    margin-right:4rem;
+   opacity:1;
+   transform:scale(1.3);
+   transition:0.5s;
+   animation: bright 1s linear;
+}
+
+.carousel_count .active:after{
+    content:"";
+    position:absolute;
+    left:2.5em;
+    top:50%;
+    transform:translate(-50%, 0);
+    width:30px;
+    height:1px;
+    background-color:var(--white);
+    transition:0.5s;
+}
+
+.carousel_arrows{
+    position:absolute;
+    z-index:1;
+    bottom:0;
+    right:0;
+}
+
+.carousel_arrows a{
+    color:var(--dark);
+    padding:1rem;
+    background-color:var(--lite);
+    align-items:center;
+    justify-content:center;
+    opacity:0.7;
+}
+
+@media (max-width:1020px){
+    header{
+        height:60vh;
+    }
+    
+    .carousel_count{
+        bottom:0rem;   
+        left:-1rem;     
+        font-size:12px;
+    }
+}
+.blizer{
+    animation: blizer 1s linear;
+}
+
+@keyframes blizer{
+    0%{
+        width:0px;
+        filter:blur(5px);
+    },
+    100%{
+        width:100%;
+        filter:blur(0px);
+    }
+}
+
+
+@keyframes bright{
+    0%{
+        opacity:0;
+        filter:blur(5px);
+    },
+    100%{
+        opacity:1;
+        filter:blur(0px);
+    }
+}
+</style> -->
+
+<style>
+
+.parallax1 {
+    background-image: url(img/termscondition.png);
+    background-position: center center;
+}
+.parallax {
+    width: 100%;
+    background-attachment: fixed;
+    background-position: 50% 0;
+}
+.about-sec {
+    background: url(img/background.png)repeat;
+}
+</style>
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Navbar Start -->
+    <div class="topic">
+        <div class="container">
+                 <div class="row">
+                     <div class="top-band" style="display: flex;justify-content: space-around;align-items: center;">
+                <div class="col-md-6">
+                        <p> <a href="#"><i class="fa fa-phone" aria-hidden="true"></i>(+91) 9717055088</a> <span><a href="#"><i class="fa fa-envelope"></i>info@deetyasoft.com</a></span></p>
+                    </div>
+                
+               <div class="col-md-6">
+                    <ul>
+                        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-instagram" aria-hidden="true" ></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin-in" aria-hidden="true"></i></a></li>
+                        <div class="enquiry-btn button wobble-horizontal" style=" border: 1px dotted #06529e; background-color: #fff; font-size: 15px;  padding: 7.5px; font-weight: 600;"><a href="#" style="color: #06529e;"> Enquiry Now <i class="fa fa-question-circle" aria-hidden="true" style="
+                            font-size: 14px;
+                            position: relative;
+                         "></i></a></div>
+                    </ul>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid sticky-top" >
+        <div class="container">
+            <nav class="navbar navbar-expand-lg p-0">
+                <a href="index.html" class="navbar-brand">
+                  <div class="logo">
+                    <img src="img/logo.png" alt="">
+                  </div>
+                </a>
+                <button type="button" class="navbar-toggler ms-auto me-0" data-bs-toggle="collapse"
+                    data-bs-target="#navbarCollapse">
+                   <!--<span class="navbar-toggler-icon"></span>-->
+                   <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="auto" viewBox="0 0 50 50">
+                    <path d="M 5 8 A 2.0002 2.0002 0 1 0 5 12 L 45 12 A 2.0002 2.0002 0 1 0 45 8 L 5 8 z M 5 23 A 2.0002 2.0002 0 1 0 5 27 L 45 27 A 2.0002 2.0002 0 1 0 45 23 L 5 23 z M 5 38 A 2.0002 2.0002 0 1 0 5 42 L 45 42 A 2.0002 2.0002 0 1 0 45 38 L 5 38 z"></path>
+                    </svg>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto">
+                        <p><a href="index.html" class="nav-item nav-link active" id="line">Home</a></p>
+                        <p> <a href="about.html" class="nav-item nav-link">About</a></p>
+                        <p><a href="our tem.html" class="nav-item nav-link">Our Team</a></p>
+                                <div class="nav-item dropdown">
+                                    <p><a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Services</a></p>
+                            <div class="dropdown-menu  mt-2" id="bg-drop">
+                                <a href="web-salution.html" class="dropdown-item"> <i class="fa fa-caret-right"></i>WEB SALUTION</a>
+                                <a href="content-management-system.html" class="dropdown-item"><i class="fa fa-caret-right"></i>CONTENT MANAGEMENT SYSTEM</a>
+                                <a href="e-commerce-services.html" class="dropdown-item"><i class="fa fa-caret-right"></i>E-COMMERCE</a>
+                                <a href="crm-scm-and-erp-services.html" class="dropdown-item"><i class="fa fa-caret-right"></i>CRM-SCM and ERP services</a>
+                                <a href="seo-services.html" class="dropdown-item"><i class="fa fa-caret-right"></i>SEO services</a>
+                                <a href="application-migration.html" class="dropdown-item"><i class="fa fa-caret-right"></i>APPLICATION MIGRATION </a>
+                                <a href="technical-maintenance-services.html" class="dropdown-item"><i class="fa fa-caret-right"></i>technical maintenance </a>
+                                <a href="eai-service.html" class="dropdown-item"><i class="fa fa-caret-right"></i>EAI SERVICE</a>
+                            </div>
+                        </div>
+                        <div class="nav-item dropdown">
+                            <p><a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Products</a></p>
+                            <div class="dropdown-menu mt-2" id="bg-drop">
+                                <a href="interactive-voice-response.html" class="dropdown-item"><i class="fa fa-caret-right"></i>interactive voice response</a>
+                                <a href="school-management-system.html" class="dropdown-item"><i class="fa fa-caret-right"></i>school management system</a>
+                                <a href="inventory-management.html" class="dropdown-item"><i class="fa fa-caret-right"></i>inventory management</a>
+                                <a href="leads-management.html" class="dropdown-item"><i class="fa fa-caret-right"></i>leads management system</a>
+                                <a href="bulk-sms.html" class="dropdown-item"><i class="fa fa-caret-right"></i>BULK SMS</a>
+                                <a href="virtual-phone-number.html" class="dropdown-item"><i class="fa fa-caret-right"></i>Virtual Phone Number</a>
+                            </div>
+                        </div>
+                        <p><a href="career.html" class="nav-item nav-link">Career</a></p>
+                        <p><a href="contact-1.html" class="nav-item nav-link">Contact Us</a></p>
+                        <p><a href="paym5.html" class="nav-item nav-link">Payment</a></p>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Navbar End -->
+
+
+    <!-- <div class="container-fluid pt-5 hero-header" style=" background: linear-gradient( rgba(0, 0, 0,.5), rgba(0, 0, 0,.5) ), url(img/bg-parallax1.jpg) no-repeat; width: 100%;
+    height: 100%; padding: 50px 0;
+    background-position: 50% 7%; background-attachment: fixed;">
+        <div class="container pt-5">
+            <div class="row g-5 pt-5">
+                <div class="col-lg-6 align-self-center text-center text-lg-start mb-lg-5">
+                    <h1 class="display-4 text-white mb-4 animated slideInRight">About Us</h1>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb justify-content-center justify-content-lg-start mb-0">
+                            <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
+                            <li class="breadcrumb-item text-white active" aria-current="page">About Us</li>
+                        </ol>
+                    </nav>
+                </div>
+                <div class="col-lg-6 align-self-end text-center text-lg-end">
+                    <img class="img-fluid" src="" alt="" style="max-height: 300px;">
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <div class="page-title parallax parallax1" style="background-position: 50% 28px;">
+        <div class="overlay"></div>
+        <div class="container">
+           <div class="row">
+              <div class="col-md-12">
+                 <div class="page-title-heading">
+                    <h1 class="title">TERM & CONDITION</h1>
+                 </div>
+                 <!-- /.page-title-captions -->
+                 <div class="breadcrumbs">
+                    <ul>
+                       <li><a href="index.html">Home</a></li>
+                       <li><a href="#">Term & Condition</a></li>
+                    </ul>
+                 </div>
+                 <!-- /.breadcrumbs -->   
+              </div>
+              <!-- /.col-md-12 -->  
+           </div>
+           <!-- /.row -->  
+        </div>
+        <!-- /.container -->                      
+     </div>
+
+     <section class="main-content blog-posts blog-single case-single">
+        <div class="container">
+           <div class="row">
+              <div class="post-wrap">
+                 <div class="col-md-12">
+                   
+                 </div>
+                 <div class="iconbox images iconleft">
+                  
+                    <div class="col-md-12">
+                         <h3 class="service-head">Terms &amp; Condition</h3>
+                       <div class="school-img-div">
+                          <img src="img/termcondition.png" alt="Term &amp; Condition" class="">
+                       </div>
+                            <h3 class="other-heading-1">Introduction</h3>
+                       <div class="box-content">
+                          <p>Deetya Soft Pvt Ltd. is an IT solution provider for varied services in application development, website designing, mobile application, development campaigning solutions and SU solutions. The motive of our company is to build quality products employed with the latest technology for ultimate customer satisfaction. Deetya Soft is rising gradually with leaps and turns to new heights in the field of Web Development and end to end solutions. The innovators of our company are committed to dedicated research for bringing solutions that justifies the new era of technology. Building quality products by our technical experts is the mantra followed at Deetya Soft. Every member of our company is inscribed with corporate values of working as a team towards a common goal. We have developed products and provided services for many companies in real estate, Telecom, commercial product organizations and management firms. It takes ages to be the best in our field but we are good in what we do to provide the best.</p>
+                          
+                       </div>
+                       
+                           <h3 class="other-heading-1">General working</h3>
+                       <div class="box-content">
+                          <p>Deetya Soft Private Limited lets user receive incoming calls through a virtual number (landline number or mobile number) or a toll-free number on an IVR and offer various options like playing message, routing to department, recording of calls etc. Deetya Soft Private Limited also offers outbound calls or features like click to call to allow customers to connect to any person generating two-way calls.</p>
+                        </div>
+
+                            <h3 class="other-heading-1">User Registration</h3>
+                       <div class="box-content">
+                            <p>For registration as user, it would be required to sign up on the Website by providing certain personal details and by agreeing to provide true, accurate, current, and complete information about users’ self as prompted by the registration form. If any information provided is untrue, inaccurate, not current, incomplete, or suspicious on reasonable grounds, then we may (in addition to any other rights or remedies available to us) refuse registration, suspend access to all current or future use of the portal and the services (or any portion thereof) permanently without any notice.</p>
+                            <p>Upon signing up on this portal, users’ personal information will be registered automatically in our database which will be maintained and used by the us for providing our offers, marketing purpose or any other communication in accordance with the Privacy Policy.</p>
+                            <p>For registration purposes, the User shall submit identification documents as proof of their personal as well as business identity, as regulated by the Department of Telecommunications, Govt. of India. The documents MUST be submitted for approval within 3-4 days of activation of services. Failure to provide these documents within the stipulated timeline will lead to suspension of services to the account. In case the documents are still not submitted within 30 days from the date of suspension, the account will be terminated and the display number will be released back to Our telecom partner. In such an event, we will not be liable to offer any refund, either in full or in part, to the User.</p>
+                        </div>
+
+                            <h3 class="other-heading-1">Substantial Delay in Activation of Services:</h3>   
+                        <div class="box-content">
+                            <p>We set out to activate a user-account in no later than 7 working days of receiving the payment.</p>
+                            <p>The following set of limitations is applicable in achieving these timelines: The timeline can get delayed based on the delay from the User’s end in providing the requisite documents mandatory for the activation of services. These may include, but are not limited to User agreements.</p>
+                            <p>The timeline can also get delayed based on the changes made by the customer after the initial script and other setting requirements have changed. For script recording in regional or international languages/accents, the timelines can get delayed by 7-10 working days.</p>
+                            <p>National holidays and non-working days are not considered in the timeline to activate services.</p>
+                        </div>
+                            <h3 class="other-heading-1">Termination</h3>
+                       <div class="box-content">
+                          <p> User may deactivate users’ membership account at any time and wfe reserve all rights to deny access, and to suspend or terminate users’ access to the portal without providing prior notice, for any reason, including violation of any of these Terms of Use by User. In case of termination/ abeyance /suspension of the User’s account/ services due to non-payment or non-renewal of services, or depletion of pulses from the User’s accounts, then we will not be held liable for the same and our obligations will not extend to those instances. </p> 
+                           </div>
+                        
+                            <h3 class="other-heading-1">Plans</h3>
+                       <div class="box-content">
+                          <p>Pre-Paid Plans: The User has the option to renew services at any period after the expiry of the initial term period, but not exceeding a period after two-months as follows: </p> 
+                          <p> During the period after expiry of the term for one month the User shall have the option to renew the complete Services with the previous number and the service plan, provided the display number is still available with us. </p>
+                          <p> During the period after expiry of the term and beyond the one-month mark before the expiry of two-months the User shall have the option to renew services to the prior number – without a guarantee of the previous service plan. The previous service plan will be reinstated if available – but We do not guarantee the availability of the same number or plan.</p>                         
+                          <p>The termination of this plan shall be without prejudice to any action or remedy of the User or us arising prior to the date of termination.</p>      
+                        </div>
+
+                    <h3 class="other-heading-1">Privacy Guidelines</h3>             
+                <div class="box-content">
+                          <p> A variety of information, text, graphics, data and other materials (“Content”) is available on the portal. The Content available on the portal shall be used solely for users’ non-commercial use and/or to benefit from the products, services intimated on the portal. No right, title or interest in any Content is transferred to user, whether as a result of downloading or reproducing such Content or otherwise. The Website reserves complete ownership, title and full intellectual property rights in all Content uploaded by us. Except as expressly authorized by this Terms of use, user may not use, alter, copy, distribute, transmit, or derive another work from any Content obtained from the Website or the service. Complete ownership, title and full intellectual property rights in all works/content uploaded by any user on the website belongs to such user.</p>
+                </div>
+                                  
+                              
+                                  
+                    <h3 class="other-heading-1">Payment for Services- Toll free and virtual numbers</h3>             
+                <div class="box-content">
+                        <p> Payment for services shall be made in advance and user agree to employ any of the electronic or other modes of payment available against the fee user make to our portal (i.e., net banking, debit cards, credit cards, prepaid wallet, other electronic means). User understand and acknowledge that we are expressly authorized to collect, process, facilitate and remit this fee made electronically by User.</p>
+                        <p>Usage charges will be billed based on the actual usage at the end of every month, which should be clear within 15 days from the date of receipt of Invoice.</p>
+                        <p>Service rental charges will be taken ahead of service on prepaid basis.</p>
+                        <p> The invoice(s) submitted by us shall be subject to inspection and verification by the User and any discrepancies therein shall be brought to Our notice within 7 days of receipt of the invoice(s). If necessary, we shall modify and provide an amended invoice(s) and User will make the payments as per the modified invoice(s). GST at the rate of 18% will be applicable.</p>
+                        <p>Any payment made in another currency than is stated on the invoice will be converted into the currency as stated on the invoice at the exchange rate on the day of payment receipt, the currency exchange differences or in case of error in the totaling of prices DEETYA SOFT PRIVATE LIMITED has the right to claim the difference.</p>
+                        <p> Deetya Soft Private Limited is registered with MSME with effect from 25/08/2018 vide registration number <strong> DL06D0010571</strong>. </p>
+                        <p> In accordance with Section 15 in The Micro, Small and Medium Enterprises Development Act, 2006, Ministry gives protection to MSME Registered Enterprises against delay in payments from Buyers. In case MSME registered enterprise, supplies any goods or services, then the buyer is required to make the payment on or before the date agreed upon between the buyer and supplier or in case no date is agreed the payment cannot be exceeded forty-five days from the day of acceptance of goods or supplies. In case of failure by the buyer to make payment on time, the buyer is required to pay compound interest with monthly interest rests to the supplier on that amount from the agreed date of payment or fifteen days of acceptance of goods or service. The penal interest chargeable for delayed payment to a MSME enterprise is three times of the bank rate notified by the Reserve Bank of India.</p>
+                        
+                        
+                </div>
+                                  
+                    <h3 class="other-heading-1">Exit Policy and Transfer of Ownership of the Display Number</h3>             
+                <div class="box-content">
+                        <p>In case the contract between Deetyasoft and Buyer has expired and the User decides not to renew the contract or extend services, we can, upon request, transfer the ownership of the display number to the User. The following conditions will dictate this policy:</p>
+                        <p> 1. Only virtual mobile numbers shall be transferable.</p>
+                        <p> 2. The ownership of Landline/PSTN/Toll-Free numbers is not transferable. </p>
+                        <p> 3. We will charge a nominal fee of INR 1000 to assist with the transfer of ownership. </p>
+                        <p> 4. In case the User decides to initiate the process on his/her own, we will terminate &amp; release the number from Our end and the User will have to contact the telecom operator directly to obtain the ownership of the number. In this case, the User does not have to pay any fees to us for transfer of ownership.</p>
+                        <p> 5. The User can choose to keep the services activated until the number porting process is complete. In this case, User will be charged the rental and usage charges on pro-rata basis.</p>
+                        <p> 6. We reserve the right to charge the User up to INR 5000 as a security deposit against the charges. Any part of unused amount will be refunded back to the User after the transfer of ownership is complete.</p>
+                </div>
+                                  
+                    <h3 class="other-heading-1">Unavailability of Desired or Committed Display Number :</h3>             
+                <div class="box-content">
+                        <p> This Website is owned by Deetya Soft Private Limited. All rights to, title and interest in the Content available on/ via the Website, the Website’s look and feel, the designs, trademarks, service marks, and trade names displayed on the Website, and the Website URLs, are the property of Deetya Soft Private Limited or its licensors, and are protected by copyrights, trademarks, patents, or other proprietary rights and laws.</p>
+                        <p>The Website and the Content are protected by copyright laws, and belong to us or its partners, affiliates, or contributors. The copyrights in the Content are owned by us or other copyright owners who have authorized their use on the Website. User may not manipulate or alter the images or other Content on the Website in any way.</p>
+                </div>
+                                  
+                    <h3 class="other-heading-1">Prohibited access of the Portal</h3>             
+                <div class="box-content">
+                        <p>In accessing any part of our Portal, user agree:</p>   
+                        <p> 1.not to use our Portal in such a way that disrupts, interferes with, or restricts the use of our site by other Users;</p>
+                        <p> 2. not to reverse engineer, de-compile, copy or adapt any software or other code or scripts forming part of our Portal; and</p>
+                        <p> 3. not to change, modify, delete, interfere with or misuse data contained on our site and entered by or relating to any third-party user of our Portal.</p>
+                        <p> 4. material contained in our site must not be reproduced or exploited for commercial gain. All other rights are reserved and users must seek our permission before making any other use of material contained in our Portal.</p>
+                        <p> 5. not to use the Portal and its solutions for purposes that are unlawful or prohibited under law. The User acknowledges that the IT Solutions include the use of telephonic resources and thereby are required to use them in compliance with applicable laws and regulations of the Telecom Regulatory Authority of India and the Department of Telecommunication.</p>
+                        <p> 6.not to use the Portal in any manner that may damage, disable, overburden, or impair the services of Deetya Soft Private Limited, telephonic numbers and servers, or the network(s) connected to any User server</p>
+                        
+                </div>
+                                  
+                    <h3 class="other-heading-1">Communication</h3>             
+                <div class="box-content">
+                        <p>User consent to receive communications from us by way of e-mails, phone calls and SMS with respect to users’ transactions on our portal or website. Users will be required to register their valid phone numbers and e-mail addresses to facilitate such communication. We may also use users’ e-mail address to send User updates, newsletters, changes to features of the Service, and the like to provide User better Services.</p>
+                </div>
+                         
+                    <h3 class="other-heading-1">Disclaimer of Warranties and Liability</h3>             
+                <div class="box-content">
+                        <p>User understand and acknowledge that User are availing our Services and transacting on our portal at users’ own risk. We shall neither be liable nor responsible for any actions or inactions of the User. We further expressly disclaim any warranties, conditions, representations and stipulations (express or implied) in respect of quality, reliability, accuracy, timeliness, performance, safety, merchantability, fitness for a particular purpose, or legality of the products displayed or transacted on our portal.</p>
+                </div>
+                
+                
+                
+                    <h3 class="other-heading-1">Indemnity</h3>             
+                <div class="box-content">
+                        <p>User agree to indemnify, defend and hold harmless Deetya Soft Private Limited and its affiliates, agents, employees, directors, officers, agents, vendors and suppliers from and against any liability, losses, claims, damages, demands, investigations, inquiries, suits, costs and expenses (including legal fee and costs incidental thereto) asserted against or incurred by Deetya Soft Private Limited that arise out of or otherwise relating to users’ use of the Website, including without limitation any obligation to be performed by User pursuant to these Terms of Use. Further, user agree to hold Deetya Soft Private Limited harmless against any claims made by any third party due to, or arising out of or otherwise relating to users’ use of the Website, any claim arising out of damage caused to third party by User, breach of these Terms of Use by User, or users’ violation of any rights of another, including any intellectual property rights.</p>
+                        <p>Not with standing anything to the contrary, our entire liability towards User under these Terms of Use or otherwise shall only be in connection with refund of the money charged from User for any particular product or service, under which the unlikely liability arises.</p>
+                </div>
+                         
+                    <h3 class="other-heading-1">Limitation of Liability</h3>             
+                <div class="box-content">
+                        <p>The Website and its affiliates assume no responsibility for any consequence relating directly or indirectly to any action or inaction taken based on the Content available on the Website. User must evaluate, and bear all risks associated with, the use of any Content, including any reliance on the accuracy, completeness, or usefulness of such Content. User specifically acknowledge that the Website and its affiliates are not liable for any defamatory, offensive, or illegal conduct by the User or any third party. Additionally, in no event the Website will or its affiliates be liable for any special, indirect, incidental, punitive, or consequential damages, including, without limitation, any loss of use, loss of profits, loss of data, cost of procurement of substitute products or services, or any other such damages, howsoever caused, and on any theory of liability, whether for breach of contract, tort (including negligence and strict liability), or otherwise resulting from the use of, or the inability to use the Website or its Content; the cost of procurement of substitute services, provided by the Website; unauthorized access to or alteration of users’ transmissions or data; the statement or conduct of any third party on the Website; or any other matter relating to the Website. These limitations will apply whether the Website has been advised of the possibility of such damages and notwithstanding any failure of essential purpose of any limited remedy.</p>
+                </div>
+                                 
+                    <h3 class="other-heading-1">Disclaimer</h3>             
+                <div class="box-content">
+                        <p>The Website expressly disclaims all warranties of any kind, whether express or implied, including, without limitation, any warranties in relation to materials posted on the Website and are not intended to amount to advice on which reliance should be placed without verification by the user. The Website disclaims all liability and responsibility arising from any reliance placed on such materials on the Website, or by anyone who may be informed of any of its contents.</p>
+                        <p> No warranties are made that the Website will meet users’ requirements, or that access to the Website will be uninterrupted, timely, secure, or error-free, or that defects, if any, will be corrected. The Website makes no warranties as to the accuracy, or reliability of any information provided through the Website.</p>
+                </div> 
+                
+                
+                     <h3 class="other-heading-1">Waiver</h3>             
+                <div class="box-content">
+                        <p>Any failure on our part to exercise any provision or right under these Terms of Use, shall not constitute a waiver by us of that provision or right</p>
+                       </div>
+                
+                 <h3 class="other-heading-1">Governing Law and Dispute Resolution</h3>             
+                <div class="box-content">
+                        <p>The present Terms of Use shall be governed and construed in accordance with the laws of India, without regard to its conflict of law provisions. All disputes shall be decided by single arbitrator mutually appointed by both parties. In case the parties cannot mutually nominate an arbitrator, the arbitrator’s appointment shall be governed in accordance with the Arbitration and Conciliation Act 1996 or any statutory enactment thereof. Any arbitration shall be confidential, and neither User nor We may disclose the existence, content or results of any arbitration, except as may be required by law or for purposes of the arbitration award; the award of which is binding on both parties. All administrative fees and expenses of arbitration will be divided equally between User and Us. In all arbitrations, each party will bear the expense of its own lawyers and preparation. The seat of arbitration shall be New Delhi and all proceedings shall be conducted in English.</p>
+                </div>
+                
+                <h3 class="other-heading-1">Contact Information</h3>             
+                <div class="box-content">
+                        <p>If user have any questions or concerns with respect to this Terms of Use or the Website or any information contained on thereon, user may contact us by writing to us at&nbsp;Parshan.kumar@gmail.com.</p> 
+                </div>
+                    </div>
+                 </div>
+              </div>
+           </div>
+        </div>
+     </section>
+
+    <!-- Newsletter Start -->
+    <div class="container-fluid newsletter py-5" style="background-color: #00aeff; ">
+        <div class="container">
+            <div class="row g-5 align-items-center">
+                <div class=" col-6 col-md-5  text-start wow fadeIn" data-wow-delay="0.3s">
+                    <img class="" src="img/newsletter.png" alt="">
+                </div>
+                <div class=" col-6  col-md-7 py-5 newsletter-text wow fadeIn" data-wow-delay="0.5s">
+                    <div class="btn btn-sm border rounded-pill text-white px-3 mb-3" style=" box-shadow: 1px 1px #06529e;">Newsletter</div>
+                    <h1 class="text-white " style="font-size: 35px;">Try our 7 days free trial</h1>
+                    <div class="col-md-7">
+                        <div class="row">
+                            <!-- <div class="trial">
+                                <h4><a href="#">+91 9717055088</a></h4>
+                                <h5><a href="#">Contact Us</a></h5>
+                            </div> -->
+                        </div>
+                    </div>
+                     <div class="position-relative w-100 mt-3 mb-2">
+                        <input class="form-control border-0 rounded-pill w-100 ps-4 pe-5" id="input-box" type="text"
+                            placeholder="Enter Your Email" style="height: 48px;">
+                        <button type="button" class="btn shadow-none position-absolute top-0 end-0 mt-1 me-2"><i
+                                class="fa fa-paper-plane text-primary fs-4"></i></button>
+                    </div>
+                    <small class="text-white" style="font-size: 15px;">See how we optimize your site’s performances and grow your business!</small>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Newsletter End -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-white-50 footer pt-5">
+        <div class="container-fluid" style="padding: 0 50px;">
+            <div class="row g-5">
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.1s">
+                    <h5 class="text-white mb-4">Location</h5>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3503.3427612534197!2d77.3321229145586!3d28.5894923927796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce5006e8bbbe5%3A0xd117902e8f97b2d2!2sDeetya+Soft+Pvt+Ltd!5e0!3m2!1sen!2sin!4v1560581576702!5m2!1sen!2sin" 
+                    width="270" height="200" frameborder="0" style="border:0" allowfullscreen=""></iframe>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
+                    <h5 class="text-white mb-4">Get In Touch</h5>
+                    <p style="font-size: 15px;"><i class="fa fa-map-marker me-3"></i>First Floor, Mahalaxmi Square Building, Plot no. C-1, Abhay khand -2, Indirapuram, Ghaziabad, Uttar Pradesh - 201010</p>
+                    <p style="font-size: 15px;"><i class="fa fa-phone me-3"></i>+91 9015350505, +91 9717055088</p>
+                    <p style="font-size: 15px;"><i class="fa fa-envelope me-3"></i>info@deetyasoft.com</p>
+                   
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">
+                    <h5 class="text-white mb-4">Popular Link</h5>
+                    <a class="btn btn-link" href="web-salution.html" style="padding-left: 30px !important; font-size: 16px;">Web Solutions</a>
+                    <a class="btn btn-link" href="bulk-sms.html"style="padding-left: 30px !important;font-size: 16px;">Campaign Solutions</a>
+                    <a class="btn btn-link" href="application-migration.html"style="padding-left: 30px !important;font-size: 15px;">Application Migration</a>
+                    <a class="btn btn-link" href="terms-condition.html"style="padding-left: 30px !important;font-size: 16px;">Terms & Condition</a>
+                    <a class="btn btn-link" href="privacy-policy.html"style="padding-left: 30px !important;font-size: 16px;">Privacy Policy</a>
+                    <a class="btn btn-link" href="refund-policy.html"style="padding-left: 30px !important;font-size: 16px;">Refund Policy</a>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
+                    <h5 class="text-white mb-4">Subscribe Newsletter</h5>
+                    <div class="position-relative">
+                        <input class="form-control border-0 rounded-pill w-70 ps-4 pe-5" type="text"
+                            placeholder="Enter Your Email" style="height: 48px;" id="input-box">
+                        <button type="button" class="btn shadow-none position-absolute top-0 end-0 mt-1 me-2"><i
+                                class="fa fa-paper-plane text-primary fs-4"></i></button>
+                    </div>
+                    <h5 class="text-white mt-4">Follow Us</h5>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container wow fadeIn" data-wow-delay="0.1s">
+            <div class="copyright">
+                <div class="row">
+                    <div class="allright">
+                        <p>©2020. All Rights Reserved ,<span><a href="#">Deetya Soft Pvt Ltd.</a></span></p>
+                    </div>
+                    <!-- <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a class="border-bottom" href="#">Your Site Name</a>, All Right Reserved.
+                        Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a> Distributed By <a class="border-bottom" href="https://themewagon.com">ThemeWagon</a>
+                    </div> -->
+                    <!-- <div class="col-md-6 text-center text-md-end">
+                        <div class="footer-menu">
+                            <a href="">Home</a>
+                            <a href="">Cookies</a>
+                            <a href="">Help</a>
+                            <a href="">FAQs</a>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top pt-2"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+ <!-- slider 3 start here script here -->
+ <script>
+    $(document).ready(function ($) {
+        $("#slider03").owlCarousel({
+            loop: true,
+            margin: 8,
+            dots: true,
+            nav: false,
+            autoplay: true,
+            items: 6,
+            autoplayTimeout: 2000
+        });
+    });
+</script>
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Deetya Soft Pvt Ltd.</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Ubuntu:wght@500;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- <style>
+    figure{
+    padding:0;
+    margin:0;
+    pointer-events:none;
+}
+
+figure img{
+    width:100%;
+    height:100%;
+}
+****************************/
+header{
+    position:relative;
+    width:100%;
+    height:100vh;
+    color:var(--white);
+}
+
+.carousel{
+    width:100%;
+    height:100%;
+    position:relative;
+}
+
+.carousel:after{
+    content:"";
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background:linear-gradient(to bottom, rgba(1,1,1,0.8) 10%, rgba(1,1,1,0.4) 50%, rgba(1,1,1,0.2) 100%);
+    z-index:1;
+}
+
+.carousel img{
+    object-fit:cover;
+    object-position:bottom;
+    width: 100%;
+}
+
+.carousel_count{
+    position:absolute;
+    bottom:1rem;
+    left:0rem;
+    align-items:center;
+    z-index:1;
+    pointer-events:none;
+}
+
+ol li, ul li{
+    position:relative;
+}
+
+.carousel_count li{
+    margin:0 0.4rem;
+    position:relative;
+    opacity:0.7;
+}
+
+.carousel_count .active{
+    margin-right:4rem;
+   opacity:1;
+   transform:scale(1.3);
+   transition:0.5s;
+   animation: bright 1s linear;
+}
+
+.carousel_count .active:after{
+    content:"";
+    position:absolute;
+    left:2.5em;
+    top:50%;
+    transform:translate(-50%, 0);
+    width:30px;
+    height:1px;
+    background-color:var(--white);
+    transition:0.5s;
+}
+
+.carousel_arrows{
+    position:absolute;
+    z-index:1;
+    bottom:0;
+    right:0;
+}
+
+.carousel_arrows a{
+    color:var(--dark);
+    padding:1rem;
+    background-color:var(--lite);
+    align-items:center;
+    justify-content:center;
+    opacity:0.7;
+}
+
+@media (max-width:1020px){
+    header{
+        height:60vh;
+    }
+    
+    .carousel_count{
+        bottom:0rem;   
+        left:-1rem;     
+        font-size:12px;
+    }
+}
+.blizer{
+    animation: blizer 1s linear;
+}
+
+@keyframes blizer{
+    0%{
+        width:0px;
+        filter:blur(5px);
+    },
+    100%{
+        width:100%;
+        filter:blur(0px);
+    }
+}
+
+
+@keyframes bright{
+    0%{
+        opacity:0;
+        filter:blur(5px);
+    },
+    100%{
+        opacity:1;
+        filter:blur(0px);
+    }
+}
+</style> -->
+
+<style>
+
+.parallax1 {
+    background-image: url(img/bg-parallax1.jpg);
+    background-position: center center;
+}
+.parallax {
+    width: 100%;
+    background-attachment: fixed;
+    background-position: 50% 0;
+}
+.about-sec {
+    background: url(img/background.png)repeat;
+}
+.featured-ser {
+    background: url(img/bg5.jpg);
+    float: left;
+}
+</style>
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Navbar Start -->
+    <div class="topic">
+        <div class="container">
+                 <div class="row">
+                     <div class="top-band" style="display: flex;justify-content: space-around;align-items: center;">
+                <div class="col-md-6">
+                        <p> <a href="#"><i class="fa fa-phone" aria-hidden="true"></i>(+91) 9717055088</a> <span><a href="#"><i class="fa fa-envelope"></i>info@deetyasoft.com</a></span></p>
+                    </div>
+                
+               <div class="col-md-6">
+                    <ul>
+                        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-instagram" aria-hidden="true" ></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin-in" aria-hidden="true"></i></a></li>
+                        <div class="enquiry-btn button wobble-horizontal" style=" border: 1px dotted #06529e; background-color: #fff; font-size: 15px;  padding: 7.5px; font-weight: 600;"><a href="#" style="color: #06529e;"> Enquiry Now <i class="fa fa-question-circle" aria-hidden="true" style="
+                            font-size: 14px;
+                            position: relative;
+                         "></i></a></div>
+                    </ul>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <div class="container-fluid sticky-top" >
+        <div class="container">
+            <nav class="navbar navbar-expand-lg p-0">
+                <a href="index.html" class="navbar-brand">
+                  <div class="logo">
+                    <img src="img/logo.png" alt="">
+                  </div>
+                </a>
+                <button type="button" class="navbar-toggler ms-auto me-0" data-bs-toggle="collapse"
+                    data-bs-target="#navbarCollapse">
+                   <!--<span class="navbar-toggler-icon"></span>-->
+                   <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="auto" viewBox="0 0 50 50">
+                    <path d="M 5 8 A 2.0002 2.0002 0 1 0 5 12 L 45 12 A 2.0002 2.0002 0 1 0 45 8 L 5 8 z M 5 23 A 2.0002 2.0002 0 1 0 5 27 L 45 27 A 2.0002 2.0002 0 1 0 45 23 L 5 23 z M 5 38 A 2.0002 2.0002 0 1 0 5 42 L 45 42 A 2.0002 2.0002 0 1 0 45 38 L 5 38 z"></path>
+                    </svg>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto">
+                        <p><a href="index.html" class="nav-item nav-link active" id="line">Home</a></p>
+                        <p> <a href="about.html" class="nav-item nav-link">About</a></p>
+                        <p><a href="our tem.html" class="nav-item nav-link">Our Team</a></p>
+                                <div class="nav-item dropdown">
+                                    <p><a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Services</a></p>
+                            <div class="dropdown-menu  mt-2" id="bg-drop">
+                                <a href="web-salution.html" class="dropdown-item"> <i class="fa fa-caret-right"></i>WEB SALUTION</a>
+                                <a href="content-management-system.html" class="dropdown-item"><i class="fa fa-caret-right"></i>CONTENT MANAGEMENT SYSTEM</a>
+                                <a href="e-commerce-services.html" class="dropdown-item"><i class="fa fa-caret-right"></i>E-COMMERCE</a>
+                                <a href="crm-scm-and-erp-services.html" class="dropdown-item"><i class="fa fa-caret-right"></i>CRM-SCM and ERP services</a>
+                                <a href="seo-services.html" class="dropdown-item"><i class="fa fa-caret-right"></i>SEO services</a>
+                                <a href="application-migration.html" class="dropdown-item"><i class="fa fa-caret-right"></i>APPLICATION MIGRATION </a>
+                                <a href="technical-maintenance-services.html" class="dropdown-item"><i class="fa fa-caret-right"></i>technical maintenance </a>
+                                <a href="eai-service.html" class="dropdown-item"><i class="fa fa-caret-right"></i>EAI SERVICE</a>
+                            </div>
+                        </div>
+                        <div class="nav-item dropdown">
+                            <p><a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Products</a></p>
+                            <div class="dropdown-menu mt-2" id="bg-drop">
+                                <a href="interactive-voice-response.html" class="dropdown-item"><i class="fa fa-caret-right"></i>interactive voice response</a>
+                                <a href="school-management-system.html" class="dropdown-item"><i class="fa fa-caret-right"></i>school management system</a>
+                                <a href="inventory-management.html" class="dropdown-item"><i class="fa fa-caret-right"></i>inventory management</a>
+                                <a href="leads-management.html" class="dropdown-item"><i class="fa fa-caret-right"></i>leads management system</a>
+                                <a href="bulk-sms.html" class="dropdown-item"><i class="fa fa-caret-right"></i>BULK SMS</a>
+                                <a href="virtual-phone-number.html" class="dropdown-item"><i class="fa fa-caret-right"></i>Virtual Phone Number</a>
+                            </div>
+                        </div>
+                        <p><a href="career.html" class="nav-item nav-link">Career</a></p>
+                        <p><a href="contact-1.html" class="nav-item nav-link">Contact Us</a></p>
+                        <p><a href="paym5.html" class="nav-item nav-link">Payment</a></p>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Navbar End -->
+
+
+    <!-- <div class="container-fluid pt-5 hero-header" style=" background: linear-gradient( rgba(0, 0, 0,.5), rgba(0, 0, 0,.5) ), url(img/bg-parallax1.jpg) no-repeat; width: 100%;
+    height: 100%; padding: 50px 0;
+    background-position: 50% 7%; background-attachment: fixed;">
+        <div class="container pt-5">
+            <div class="row g-5 pt-5">
+                <div class="col-lg-6 align-self-center text-center text-lg-start mb-lg-5">
+                    <h1 class="display-4 text-white mb-4 animated slideInRight">About Us</h1>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb justify-content-center justify-content-lg-start mb-0">
+                            <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
+                            <li class="breadcrumb-item text-white active" aria-current="page">About Us</li>
+                        </ol>
+                    </nav>
+                </div>
+                <div class="col-lg-6 align-self-end text-center text-lg-end">
+                    <img class="img-fluid" src="" alt="" style="max-height: 300px;">
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <div class="page-title parallax parallax1" style="background-position: 50% 28px;">
+        <div class="overlay"></div>
+        <div class="container">
+           <div class="row">
+              <div class="col-md-12">
+                 <div class="page-title-heading">
+                    <h1 class="title"> Web Solution</h1>
+                 </div>
+                 <!-- /.page-title-captions -->
+                 <div class="breadcrumbs">
+                    <ul>
+                       <li><a href="index.html">Home</a></li>
+                       <li><a href="#">Web Solution</a></li>
+                    </ul>
+                 </div>
+                 <!-- /.breadcrumbs -->   
+              </div>
+              <!-- /.col-md-12 -->  
+           </div>
+           <!-- /.row -->  
+        </div>
+        <!-- /.container -->                      
+     </div>
+
+
+     <section class="main-content blog-posts blog-single case-single">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <h3 class="service-head">Web Solution Service</h3>
+                    <div class="post-wrap">
+                       <div class="iconbox images iconleft">                    
+                            <div class="box-header case-item position-relative overflow-hidden rounded mb-2 ">
+                                <img src="img/web-solution.jpg" alt="web solution">
+                            </div>
+                            <div class="box-content">                                                
+                               <p>Dynamic web solutions like web designing, web portal development, web development services, and web application development are our key web services carried on by our experts. The activity on the internet is on the rise and efficient web development for your organization would be the gateway for success. When it comes to web designing or development, Deetyasoft is the first name that comes into the mind. Deetyasoft offers all these services along with additional services such as internet marketing, SEO services, hosting services, and domain booking services. Our motive is to promote our client's business and brand by delivering unique and quality-oriented services We always try our level best to properly understand the needs of our clients and suggesting them the most suitable facilities to them. Today, when the trends are changing and people are more aware of the technology, web presence for your business has become quite essential. Your web presence also counts for your business promotion. If your business is not present on the web, then it surely is lacking a major publicity /branding source. And when you decide to make your business go online, that's when our role comes into play. We along with our team fulfill your entire requirements regarding  website development and internet marketing.</p>                               
+                            </div>                            
+                        </div>
+                   </div>
+                   
+                        <div class="packed-ser">
+                            <h3 class="service-head">Our Power Packed Feature</h3>
+                            <div class="row">
+                                <div class="featured-ser">
+                                    <div class="row">
+                        <div class="col-md-6 padd-0 case-item position-relative overflow-hidden rounded mb-2">
+                            <a href="interactive-voice-response.html">
+                            <div class="fea-icon text-center border-right bdr-r-none bdr-b">
+                                <img src="img/f1.png">
+                                <h3>Interactive Voice Response</h3>
+                                <p>IVR Services that facilitates 24/7 monitoring of your calls and leads.</p>
+                                
+                            </div>
+                                </a>
+                        </div>
+                        <div class="col-md-6 padd-0 case-item position-relative overflow-hidden rounded mb-2">
+                                <a href="inventory-management.html">
+                            <div class="fea-icon text-center border-bootom">
+                                <img src="img/f2.png">
+                                <h3>Inventory Management</h3>
+                                <p>Inventory management is all about what, where</p>
+                                
+                            </div>
+                            </a>
+                        </div>
+                         <div class="col-md-6 padd-0 case-item position-relative overflow-hidden rounded mb-2">
+                                 <a href="crm-scm-and-erp-services.html">
+                            <div class="fea-icon text-center border-left bdr-b">
+                                <img src="img/f3.png">
+                                <h3>CRM</h3>
+                                <p>Complete CRM Solution that allows to manage your organization.</p>
+                                
+                            </div>
+                             </a>
+                        </div>
+                         <div class="col-md-6 padd-0 case-item position-relative overflow-hidden rounded mb-2">
+                                 <a href="mobile-application-services.html">
+                            <div class="fea-icon text-center  bdr-l-none ">
+                                <img src="img/f4.png" style="width: 76px;">
+                                <h3>Application Development</h3>
+                                <p>Development of web and mobile applications to increase productivity</p>
+                                
+                            </div>
+                             </a>
+                        </div>
+                    </div>
+                                </div>
+                            </div>
+                    </div>
+                </div>   
+                <div class="col-md-4">
+                    
+                    
+                    <div class="sidebar">
+                         <div class="widget widget-recent-news">
+                            <h2 class="widget-title">All services</h2>
+                            <div class="category-list">
+                            <ul class="popular-news clearfix">
+                                <li>
+                                    <a href="#"><i class="fa fa-caret-right"></i>WEB SOLUTION</a>
+                                </li>
+                                 <li>
+                                    <a href="content-management-system.html"><i class="fa fa-caret-right"></i>CONTENT MANAGEMENT SYSTEM</a>
+                                </li>
+                                <li>
+                                    <a href="e-commerce-services.html"><i class="fa fa-caret-right"></i>E-COMMERCE SERVICES</a>
+                                </li>
+                                  <li>
+                                    <a href="crm-scm-and-erp-services.html"><i class="fa fa-caret-right"></i>CRM, SCM AND ERP SERVICES</a>
+                                </li>
+                                  <li>
+                                    <a href="mobile-application-services.html"><i class="fa fa-caret-right"></i>MOBILE APPLICATION SERVICES</a>
+                                </li> <li>
+                                    <a href="seo-services.html"><i class="fa fa-caret-right"></i>SEO SERVICES</a>
+                                </li>
+                                
+                                 <li>
+                                    <a href="application-migration.html"><i class="fa fa-caret-right"></i>APPLICATION MIGRATION</a>
+                                </li>
+                                 <li>
+                                    <a href="technical-maintenance-services.html"><i class="fa fa-caret-right"></i>TECHNICAL MAINTENANCE SERVICES</a>
+                                </li>
+                                  <li>
+                                    <a href="eai-service.html"><i class="fa fa-caret-right"></i>EAI SERVICE</a>
+                                </li>
+                                
+                            </ul>
+                            </div>
+                        </div>
+                        <div class="request-prosopal">
+                        <h2>Request A Proposal</h2>
+                        <form method="post" action="contact.php" id="getaudit" class="getautdit-style1">
+                            <p class="website">
+                                <label for="website">Your Name <span class=" mutliply-icon">*</span></label>
+                                <input id="website" name="name" type="text" aria-required="true" required="">
+                            </p>
+
+                            <p class="email">
+                                <label>You Email <span class=" mutliply-icon">*</span></label>
+                                <input id="email" name="email" type="email" value="" aria-required="true" required="">
+                            </p>
+
+                            <p class="phone">
+                                <label>You Phone <span class=" mutliply-icon">*</span></label>
+                                <input id="phone" name="phone" type="number" value="" aria-required="true" required="">
+                            </p>
+
+                            <p class="phone">
+                                <label>Message <span class=" mutliply-icon">*</span></label>
+                                <input name="msg" type="text" value="" aria-required="true" required="required">
+                                <input id="phone" name="site" value="deetyasoft" aria-required="true" required="" style="display:none">
+                            </p>
+                            
+                            <p class="form-submit">
+                                <input name="submit" type="submit" value="Submit">
+                            </p>
+                        </form>
+                    </div>
+                       
+                    </div>
+                </div>           
+            </div>        
+        </div>   
+    </section>
+
+
+   <!-- Newsletter Start -->
+   <div class="container-fluid newsletter py-5" style="background-color: #00aeff; ">
+    <div class="container">
+        <div class="row g-5 align-items-center">
+            <div class=" col-6 col-md-5  text-start wow fadeIn" data-wow-delay="0.3s">
+                <img class="" src="img/newsletter.png" alt="">
+            </div>
+            <div class=" col-6  col-md-7 py-5 newsletter-text wow fadeIn" data-wow-delay="0.5s">
+                <div class="btn btn-sm border rounded-pill text-white px-3 mb-3" style=" box-shadow: 1px 1px #06529e;">Newsletter</div>
+                <h1 class="text-white " style="font-size: 35px;">Try our 7 days free trial</h1>
+                <div class="col-md-7">
+                    <div class="row">
+                        <!-- <div class="trial">
+                            <h4><a href="#">+91 9717055088</a></h4>
+                            <h5><a href="#">Contact Us</a></h5>
+                        </div> -->
+                    </div>
+                </div>
+                 <div class="position-relative w-100 mt-3 mb-2">
+                    <input class="form-control border-0 rounded-pill w-100 ps-4 pe-5" id="input-box" type="text"
+                        placeholder="Enter Your Email" style="height: 48px;">
+                    <button type="button" class="btn shadow-none position-absolute top-0 end-0 mt-1 me-2"><i
+                            class="fa fa-paper-plane text-primary fs-4"></i></button>
+                </div>
+                <small class="text-white" style="font-size: 15px;">See how we optimize your site’s performances and grow your business!</small>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Newsletter End -->
+
+
+<!-- Footer Start -->
+<div class="container-fluid bg-dark text-white-50 footer pt-5">
+    <div class="container-fluid" style="padding: 0 50px;">
+        <div class="row g-5">
+            <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.1s">
+                <h5 class="text-white mb-4">Location</h5>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3503.3427612534197!2d77.3321229145586!3d28.5894923927796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce5006e8bbbe5%3A0xd117902e8f97b2d2!2sDeetya+Soft+Pvt+Ltd!5e0!3m2!1sen!2sin!4v1560581576702!5m2!1sen!2sin" 
+                width="270" height="200" frameborder="0" style="border:0" allowfullscreen=""></iframe>
+            </div>
+            <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
+                <h5 class="text-white mb-4">Get In Touch</h5>
+                <p style="font-size: 15px;"><i class="fa fa-map-marker me-3"></i>First Floor, Mahalaxmi Square Building, Plot no. C-1, Abhay khand -2, Indirapuram, Ghaziabad, Uttar Pradesh - 201010</p>
+                <p style="font-size: 15px;"><i class="fa fa-phone me-3"></i>+91 9015350505, +91 9717055088</p>
+                <p style="font-size: 15px;"><i class="fa fa-envelope me-3"></i>info@deetyasoft.com</p>
+               
+            </div>
+            <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">
+                <h5 class="text-white mb-4">Popular Link</h5>
+                <a class="btn btn-link" href="web-salution.html" style="padding-left: 30px !important; font-size: 16px;">Web Solutions</a>
+                <a class="btn btn-link" href="bulk-sms.html"style="padding-left: 30px !important;font-size: 16px;">Campaign Solutions</a>
+                <a class="btn btn-link" href="application-migration.html"style="padding-left: 30px !important;font-size: 15px;">Application Migration</a>
+                <a class="btn btn-link" href="terms-condition.html"style="padding-left: 30px !important;font-size: 16px;">Terms & Condition</a>
+                <a class="btn btn-link" href="privacy-policy.html"style="padding-left: 30px !important;font-size: 16px;">Privacy Policy</a>
+                <a class="btn btn-link" href="refund-policy.html"style="padding-left: 30px !important;font-size: 16px;">Refund Policy</a>
+            </div>
+            <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
+                <h5 class="text-white mb-4">Subscribe Newsletter</h5>
+                <div class="position-relative">
+                    <input class="form-control border-0 rounded-pill w-70 ps-4 pe-5" type="text"
+                        placeholder="Enter Your Email" style="height: 48px;" id="input-box">
+                    <button type="button" class="btn shadow-none position-absolute top-0 end-0 mt-1 me-2"><i
+                            class="fa fa-paper-plane text-primary fs-4"></i></button>
+                </div>
+                <h5 class="text-white mt-4">Follow Us</h5>
+                <div class="d-flex pt-2">
+                    <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                    <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-instagram"></i></a>
+                    <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container wow fadeIn" data-wow-delay="0.1s">
+        <div class="copyright">
+            <div class="row">
+                <div class="allright">
+                    <p>©2020. All Rights Reserved ,<span><a href="#">Deetya Soft Pvt Ltd.</a></span></p>
+                </div>
+                <!-- <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    &copy; <a class="border-bottom" href="#">Your Site Name</a>, All Right Reserved.
+                    Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a> Distributed By <a class="border-bottom" href="https://themewagon.com">ThemeWagon</a>
+                </div> -->
+                <!-- <div class="col-md-6 text-center text-md-end">
+                    <div class="footer-menu">
+                        <a href="">Home</a>
+                        <a href="">Cookies</a>
+                        <a href="">Help</a>
+                        <a href="">FAQs</a>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Footer End -->
+
+
+<!-- Back to Top -->
+<a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top pt-2"><i class="bi bi-arrow-up"></i></a>
+
+
+<!-- JavaScript Libraries -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="lib/wow/wow.min.js"></script>
+<script src="lib/easing/easing.min.js"></script>
+<script src="lib/waypoints/waypoints.min.js"></script>
+<script src="lib/counterup/counterup.min.js"></script>
+<script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+<!-- slider 3 start here script here -->
+<script>
+$(document).ready(function ($) {
+    $("#slider03").owlCarousel({
+        loop: true,
+        margin: 8,
+        dots: true,
+        nav: false,
+        autoplay: true,
+        items: 6,
+        autoplayTimeout: 2000
+    });
+});
+</script>
+<!-- Template Javascript -->
+<script src="js/main.js"></script>
+</body>
+
+</html>

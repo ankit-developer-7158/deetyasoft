@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Dazzle | Best Char Dham Yatra Travel tour Packages by Helicopter
+        2023 - Budget Deluxe Luxury Char Dham Tours</title>
+    <?php include("includes/top-css.php"); ?>
+</head>
+
+<body>
+    <?php include("includes/header.php"); ?>
+    <div class="slider-sec home">
+        <img src="images/carousel-inner-bg.jpg" alt="" class="img-fluid w-100">
+    </div>
+    <section class="ptb70">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 mb-2">
+                    <h2 class="text-orange">
+                        Chardham Package From Delhi
+                    </h2>
+                    <p>
+                        <b>11 Nights / 12 Days</b>
+                    </p>
+                </div>
+                <div class="col-md-8">
+                    <div class="packges-query-details mb-3">
+                        <span><i class="fa fa-map-marker" aria-hidden="true"></i> Uttarakhand</span>
+                        <ul class="p-0">
+                            <li> <i class="fa fa-clock-o"></i> 09 Nights & 10 Days</li>
+                            <li> <i class="fa fa-clock-o"></i> April-November</li>
+                            <li> <i class="fa fa-clock-o"></i> Arrival: Haridwar/Dehradun</li>
+                            <li> <i class="fa fa-clock-o"></i> Destinations: Chardham-Yamunotri/Gangotri/Kedarnath/ Badrinath</li>
+                            <li> <i class="fa fa-clock-o"></i> Some Places</li>
+                            <li> <i class="fa fa-clock-o"></i> Min Age: No age limit</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="packges-query-form">
+                        <h2 class="query-title">Request A Quote</h2>
+                        <form action="#">
+                            <input type="text" class="form-control" placeholder="Your Nmae" required>
+                            <input type="text" class="form-control" placeholder="Phone Number" required>
+                            <input type="email" class="form-control" placeholder="Your Email" required>
+                            <textarea class="form-control" id="" cols="30" rows="3" placeholder="Massage"></textarea>
+                            <button class="form-control text-center">
+                                Send Enquiry
+                            </button>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <h2 class="text-orange">
+                        Package Details
+                    </h2>
+                    <div class="accordion mb-3" id="accordionExample">
+                        <div class="card">
+                            <div class="card-header" id="headingOne">
+                                <span data-toggle="collapse" data-target="#collapseOne">
+                                    <b>Day:01</b> - Delhi – Haridwar (210 Kms, 6 Hours approx)
+                                    <i class="fa fa-plus" aria-hidden="true"></i>
+                                </span>
+                            </div>
+                            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    On arrival in Delhi, you'll be greeted by our representative and we will drive to Haridwar. Once you reach Haridwar, check in to your hotel and enjoy the rest of your day at leisure. In the evening, we'll take you to Har-Ki-Pouri for Aarti darshan. After experiencing the beautiful Aarti Darshan, you'll return back to the hotel for an overnight stay.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+
+                            <div class="card-header" id="headingTwo"><span data-toggle="collapse" data-target="#collapseTwo">
+                                    <b>Day:02</b> - Haridwar – Barkot (205 Kms, 6 Hours approx)<i class="fa fa-plus" aria-hidden="true"></i></span>
+                            </div>
+                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    Good morning! After enjoying breakfast, we will check out from the hotel and drive to Barkot via Mussoorie. Upon arrival, we will check-in to the hotel and stay overnight.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingThree"> <span data-toggle="collapse" data-target="#collapseThree">
+                                    <b>Day:03</b> - Barkot – Yamunotri- Barkot (42 Kms & 5 Kms Trek) Each side
+                                    <i class="fa fa-plus" aria-hidden="true"></i></span>
+                            </div>
+                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    Begin your adventure with an early morning drive (4:00 AM) to Jankichatti (42 KMS), followed by a 5 Kms trek from Janki Chatti to Yamunotri. You can choose to walk, ride a doli, or go by horse at your own expense. Upon arrival at Yamunotri, take a relaxing dip in the hot Jamunabai Kund before visiting the temple. You can even cook rice by packing it in a cloth and submerging it in the hot water of the hot kund. Pilgrims often take this cooked rice back home as "Prasad." Afterward, head back down to Jankichatti before proceeding to Barkot, where you'll stay overnight at a hotel.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingThree1"> <span data-toggle="collapse" data-target="#collapseThree1">
+                                    <b>Day:04</b> - Barkot – Uttarkashi (95Kms, 4 Hours Approx)
+                                    <i class="fa fa-plus" aria-hidden="true"></i></span>
+                            </div>
+                            <div id="collapseThree1" class="collapse" aria-labelledby="headingThree1" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    Our day will begin with breakfast at 9:00 AM, followed by check-out from the hotel. We'll then embark on a scenic drive to Uttarkashi, with a visit to Praketswar Mahadev en route. Once we arrive, we'll check-in at the hotel and rest for a bit. Later in the evening, we'll visit the renowned Kashi-Viswnath temple in Uttarkashi. Afterward, we'll return to the hotel for an overnight stay.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingThree2"> <span data-toggle="collapse" data-target="#collapseThree2">
+
+                                    <b>Day:05</b> - Uttarkashi- Gangotri- Uttarkashi (100 Kms) each side
+
+                                    <i class="fa fa-plus" aria-hidden="true"></i></span>
+                            </div>
+                            <div id="collapseThree2" class="collapse" aria-labelledby="headingThree2" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    Embark on an early morning (5:00 AM) drive to Gangotri and experience the divinity of the river Ganga, also known as Bhagirathi at its source. Take a holy dip and then proceed for a temple darshan. Later, return to Uttarkashi for an overnight stay.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingThree3"> <span data-toggle="collapse" data-target="#collapseThree3">
+                                    <b>Day:06</b> - Uttarkashi – Guptkashi (223 Kms, 9 - 10 Hours Approx)
+                                    <i class="fa fa-plus" aria-hidden="true"></i></span>
+                            </div>
+                            <div id="collapseThree3" class="collapse" aria-labelledby="headingThree3" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    Start your morning bright and early at 7:00 AM with breakfast and check out from the hotel. From there, we will drive to Guptkashi. Once we arrive at Guptkashi, we will check into our hotel. In the evening, we'll visit the well-known Kashi-Vishwnath temple in Guptkashi. After the temple darshan, we'll head back to the hotel for an overnight stay.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingThree4"> <span data-toggle="collapse" data-target="#collapseThree4">
+                                    <b>Day:07</b> - Guptkashi – Kedarnath (35 Kms & 17 Kms trek)
+                                    <i class="fa fa-plus" aria-hidden="true"></i></span>
+                            </div>
+                            <div id="collapseThree4" class="collapse" aria-labelledby="headingThree4" data-parent="#accordionExample">
+                                <div class="card-body">
+
+                                    After enjoying your breakfast, get ready to embark on your Kedarnath trek. To make the most of your day, you'll have to leave the hotel early in the morning and drive to Sonprayag. Spend the night in Kedarnath.
+
+                                    <p>
+                                        <b>Helicopter Option:</b>
+                                        In the morning, our driver will take you to the pre-booked Helipad. After your tour of Kedarnath, return to the helipad where our car will be waiting to transport you back to your hotel for a well-deserved rest.
+                                    </p>
+                                    <p>
+                                        <b>
+                                            Trek Option:
+                                        </b>
+                                        For those who prefer trekking, start your day with an early breakfast, and then head to Sonprayag to begin your journey to Kedarnath. First, take a local jeep to Gaurikund and then start your trek. After completing the darshan, return by the same route to Sonprayag. Be aware that parking can be an issue, so if you are unable to contact your driver, you may need to arrange for alternate transportation or wait for your driver and send a message to update them on your status.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingThree5"> <span data-toggle="collapse" data-target="#collapseThree5">
+                                    <b>Day:08</b> - Kedarnath - Guptkashi (17 Kms Down Trek & 35 Kms 3 hrs by Road)
+                                    <i class="fa fa-plus" aria-hidden="true"></i></span>
+                            </div>
+                            <div id="collapseThree5" class="collapse" aria-labelledby="headingThree5" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    Start your day bright and early at 4:00 AM with a temple darshan. After the darshan, head back to the hotel for breakfast before embarking on a trek down to Gaurikund. Once the trek is complete, take a scenic drive to Guptkashi and check-in to your hotel. Rest and relax for the night at the hotel.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingThree6"> <span data-toggle="collapse" data-target="#collapseThree6">
+                                    <b>Day:09</b> - Guptkashi - Badrinath (190 kms / 9 Hours Approx)
+                                    <i class="fa fa-plus" aria-hidden="true"></i></span>
+                            </div>
+                            <div id="collapseThree6" class="collapse" aria-labelledby="headingThree6" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    Start your morning at 7:00 AM with a scenic drive to Badrinath. Once you arrive, check into your hotel and take a short break before heading out for an exciting sightseeing adventure in Mana Village – the last village before the Tibetan border. See the famous Vyas Gufa, Ganesh Gufa, Charanpaduka, Bhim pul, and the "Mukh" of the Saraswati river. Return to the hotel afterwards and attend the evening aarti before spending the night.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingThree7"> <span data-toggle="collapse" data-target="#collapseThree7">
+                                    <b>Day:10</b> - Badrinath – Rudraprayag (190 kms/8hr)
+                                    <i class="fa fa-plus" aria-hidden="true"></i></span>
+                            </div>
+                            <div id="collapseThree7" class="collapse" aria-labelledby="headingThree7" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    Start your day with a refreshing bath at Taptkund (also known as Suryakund) at 4:00 AM, followed by a visit to the temple for darshan (worship). Return to your hotel for breakfast and check-out. Next, embark on a scenic drive to Rudraprayayg and check-in at your hotel upon arrival. Rest well for the night.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingThree8"> <span data-toggle="collapse" data-target="#collapseThree8">
+                                    <b>Day:11</b> - Rudraprayag - Rishikesh/Haridwar (140kms/5-6hrs.)
+                                    <i class="fa fa-plus" aria-hidden="true"></i></span>
+                            </div>
+                            <div id="collapseThree8" class="collapse" aria-labelledby="headingThree8" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    Start your day off right with breakfast, then head out to Rishikesh around 9:00 AM. Once you arrive, check into your hotel and take some time to relax before embarking on a tour of the city.Visit the famous landmarks of Laxman Jhula, Ram Jhula, Raghunath Temple and Geeta Bhavan. In the evening, don't miss the aarti at Triveni Ghat. Afterward, you can head back to your hotel for a well-deserved rest.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingThree9"> <span data-toggle="collapse" data-target="#collapseThree9">
+
+                                    <b>Day:12</b> - Rishikesh/Haridwar - Delhi (245kms/ 6-7hrs. Drive one way)<i class="fa fa-angle-right"></i></span>
+                            </div>
+                            <div id="collapseThree9" class="collapse" aria-labelledby="headingThree9" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    Start the morning with breakfast at 9:00 AM, then embark on a drive back to Delhi. Upon arrival, transfer to the airport or railway station to catch your flight or train towards your next destination.
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <h3 class="text-orange">
+                        Inclusion
+                    </h3>
+                    <ul class="details-ul">
+                        <li>Transportation from Delhi to Chardham and back to Delhi. </li>
+                        <li>All pick up and dropping facilities at one point in Delhi. </li>
+                        <li>Hotel Accommodation 11 Nights </li>
+                        <li>Breakfast & Dinner </li>
+                        <li>Driver's Allowances </li>
+                        <li>All fuel charges. </li>
+                        <li>All state taxes. </li>
+                        <li>All toll / parking Fee. </li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <h3 class="text-orange">
+                        Exclusion
+                    </h3>
+                    <ul class="details-ul">
+                        <li> Any Airfare.</li>
+                        <li> Lunch Meal</li>
+                        <li> Any personal expenses, like STD Call, laundry.</li>
+                        <li> Any type of Insurance.</li>
+                        <li> Any claim due to natural Calamities such as land slide, road blockage etc.</li>
+                        <li> Or any other things which are not mentioned in cost included column</li>
+                    </ul>
+                </div>
+                <div class="col-md-12">
+                    <p><b>Note: </b> AC is not compulsory required in hill area.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    
+    <?php include("includes/related-package.php"); ?>
+    <?php include("includes/footer.php"); ?>
+    <?php include("includes/script.php"); ?>
+
+</body>
+
+</html>
